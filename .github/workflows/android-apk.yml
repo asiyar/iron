@@ -1,0 +1,144 @@
+name: Android APK
+
+# Bu iş akışı EAS kullanmadan, doğrudan GitHub runner'ında Gradle ile APK üretir.
+# - Secret tanımlamadan da çalışır: çıktı debug anahtarıyla imzalanır (test/yan yükleme için yeterli).
+# - Release keystore secret'ları tanımlıysa APK gerçek anahtarınla yeniden imzalanır.
+# - Bir sürüm etiketi (v1.0.0 gibi) push edilirse APK otomatik olarak GitHub Release'e eklenir.
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: "Çıktı türü"
+        type: choice
+        options: [apk, aab]
+        default: apk
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Derle
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      # app.config.ts bu değişkenleri okur. Gerçek bundle kimliğini repo
+      # Settings > Secrets and variables > Actions > Variables altında tanımla.
+      EXPO_PUBLIC_BUNDLE_ID: ${{ vars.EXPO_PUBLIC_BUNDLE_ID || 'com.ironpulse.app' }}
+      EXPO_PUBLIC_SCHEME: ${{ vars.EXPO_PUBLIC_SCHEME || 'ironpulse' }}
+      EXPO_PUBLIC_API_BASE_URL: ${{ vars.EXPO_PUBLIC_API_BASE_URL }}
+      EXPO_PUBLIC_REVENUECAT_ANDROID_PUBLIC_SDK_KEY: ${{ secrets.EXPO_PUBLIC_REVENUECAT_ANDROID_PUBLIC_SDK_KEY }}
+
+    steps:
+      - name: Kodu çek
+        uses: actions/checkout@v4
+
+      - name: Node kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: JDK 17 kur
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Android SDK kur
+        uses: android-actions/setup-android@v3
+
+      - name: Bağımlılıkları yükle
+        run: npm ci
+
+      - name: Tip denetimi
+        run: npm run typecheck
+
+      - name: Testler
+        run: npm test
+
+      # android/ klasörü depoda tutulmuyor; her derlemede app.config.ts'ten üretilir.
+      - name: Native projeyi üret
+        run: npx expo prebuild --platform android --clean --no-install
+
+      - name: Gradle önbelleği
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          build-root-directory: android
+
+      - name: Gradle'ı çalıştırılabilir yap
+        run: chmod +x android/gradlew
+
+      - name: APK derle
+        if: ${{ github.event.inputs.build_type != 'aab' }}
+        working-directory: android
+        run: ./gradlew assembleRelease --no-daemon --stacktrace
+
+      - name: AAB derle
+        if: ${{ github.event.inputs.build_type == 'aab' }}
+        working-directory: android
+        run: ./gradlew bundleRelease --no-daemon --stacktrace
+
+      # Expo şablonu release derlemesini varsayılan olarak debug anahtarıyla imzalar.
+      # Aşağıdaki adım yalnızca gerçek keystore secret'ları tanımlıysa çalışır ve
+      # imzayı kendi anahtarınla değiştirir.
+      - name: Release anahtarıyla imzala
+        if: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' && github.event.inputs.build_type != 'aab' }}
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.keystore"
+
+          BUILD_TOOLS="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -n 1)"
+          APK="android/app/build/outputs/apk/release/app-release.apk"
+
+          "$BUILD_TOOLS/zipalign" -p -f 4 "$APK" "$RUNNER_TEMP/aligned.apk"
+          "$BUILD_TOOLS/apksigner" sign \
+            --ks "$RUNNER_TEMP/release.keystore" \
+            --ks-pass "pass:$KEYSTORE_PASSWORD" \
+            --ks-key-alias "$KEY_ALIAS" \
+            --key-pass "pass:$KEY_PASSWORD" \
+            --out "$APK" \
+            "$RUNNER_TEMP/aligned.apk"
+          "$BUILD_TOOLS/apksigner" verify --print-certs "$APK"
+
+          rm -f "$RUNNER_TEMP/release.keystore" "$RUNNER_TEMP/aligned.apk"
+
+      - name: APK'yı artefakt olarak yükle
+        if: ${{ github.event.inputs.build_type != 'aab' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ironpulse-apk-${{ github.sha }}
+          path: android/app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: AAB'yi artefakt olarak yükle
+        if: ${{ github.event.inputs.build_type == 'aab' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ironpulse-aab-${{ github.sha }}
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Sürüm etiketine ekle
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            android/app/build/outputs/apk/release/app-release.apk
+            android/app/build/outputs/bundle/release/app-release.aab
+          fail_on_unmatched_files: false
