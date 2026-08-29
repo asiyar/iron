@@ -1,0 +1,19 @@
+import MaterialIcons from "@expo/vector-icons/MaterialIcons";
+import { VideoView, useVideoPlayer } from "expo-video";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+
+const TRUSTED_HOSTS = new Set(["wger.de", "www.wger.de", "muscleandstrength.com", "www.muscleandstrength.com", "acefitness.org", "www.acefitness.org", "www.youtube.com", "youtube.com", "www.youtube-nocookie.com", "youtube-nocookie.com", "player.vimeo.com", "vimeo.com"]);
+
+function isTrustedUrl(url: string) {
+  try { return new URL(url).protocol === "https:" && TRUSTED_HOSTS.has(new URL(url).hostname); } catch { return false; }
+}
+
+export function InAppVideoGuide({ url, title, onBack, directVideo = false }: { url: string; title: string; onBack: () => void; directVideo?: boolean }) {
+  const trusted = isTrustedUrl(url);
+  return <View style={styles.page}><View style={styles.header}><TouchableOpacity accessibilityRole="button" onPress={onBack} style={styles.back}><MaterialIcons name="arrow-back" size={20} color="#E7EDF5" /></TouchableOpacity><View style={{ flex: 1 }}><Text style={styles.eyebrow}>UYGULAMA İÇİ VİDEO REHBERİ</Text><Text numberOfLines={1} style={styles.title}>{title}</Text></View></View><View style={styles.source}><MaterialIcons name="verified-user" size={15} color="#B8FF3D" /><Text style={styles.sourceText}>Doğrulanmış kaynak bu uygulama ekranında görüntüleniyor.</Text></View>{directVideo ? <DirectVideoPlayer source={url} /> : <View style={styles.webFrame}>{trusted ? <iframe src={url} title={title} style={frameStyle} allow="fullscreen; autoplay; picture-in-picture" referrerPolicy="strict-origin-when-cross-origin" /> : <View style={styles.fallback}><MaterialIcons name="error-outline" size={27} color="#FFD166" /><Text style={styles.errorTitle}>Kaynak açılamadı</Text><Text style={styles.errorCopy}>Bu rehber yalnızca doğrulanmış HTTPS kaynakları için uygulama içinde açılır.</Text></View>}</View>}<Text style={styles.hint}>Yayıncı sayfası gömülmeyi engellerse uygulama dışına yönlendirme yapılmaz; egzersiz sayfasındaki ayrıntılı form rehberini kullanabilirsin.</Text></View>;
+}
+
+function DirectVideoPlayer({ source }: { source: string }) { const player = useVideoPlayer(source, (instance) => { instance.loop = false; }); return <View style={styles.webFrame}><VideoView style={styles.video} player={player} fullscreenOptions={{ enable: true }} allowsPictureInPicture nativeControls contentFit="contain" /></View>; }
+
+const frameStyle = { border: 0, width: "100%", height: "100%", backgroundColor: "#05080C" };
+const styles = StyleSheet.create({ page: { flex: 1, backgroundColor: "#090D12", paddingTop: 54 }, header: { paddingHorizontal: 20, paddingBottom: 14, flexDirection: "row", alignItems: "center", gap: 12 }, back: { width: 42, height: 42, borderRadius: 14, backgroundColor: "#141A22", borderColor: "#344154", borderWidth: 1, alignItems: "center", justifyContent: "center" }, eyebrow: { color: "#B8FF3D", fontSize: 9, fontWeight: "900", letterSpacing: 0.8 }, title: { color: "#F5F7FA", fontSize: 16, fontWeight: "900", marginTop: 3 }, source: { marginHorizontal: 20, marginBottom: 12, padding: 10, borderRadius: 12, backgroundColor: "#16251A", flexDirection: "row", alignItems: "center", gap: 7 }, sourceText: { color: "#CFE6B3", fontSize: 10, fontWeight: "700" }, webFrame: { flex: 1, marginHorizontal: 12, overflow: "hidden", borderRadius: 20, borderColor: "#2B3748", borderWidth: 1, backgroundColor: "#05080C" }, video: { flex: 1 }, fallback: { flex: 1, alignItems: "center", justifyContent: "center", padding: 28 }, errorTitle: { color: "#F5F7FA", fontSize: 17, fontWeight: "900", textAlign: "center", marginTop: 12 }, errorCopy: { color: "#B7C0CB", fontSize: 12, lineHeight: 18, textAlign: "center", marginTop: 7 }, hint: { color: "#8492A2", fontSize: 10, lineHeight: 15, padding: 14, textAlign: "center" } });

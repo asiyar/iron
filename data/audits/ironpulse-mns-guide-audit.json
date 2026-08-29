@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "barbell-bench-press",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-bench-press.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/paused-barbell-bench-press",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/1-board-bench-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/2-board-bench-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/3-board-bench-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/3-exercises-to-improve-your-bench-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-high-start.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-low-start.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/palms-in-incline-dumbbell-bench-press.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-high-start.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-low-start.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-floor-press",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-reverse-fly-on-incline-bench.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-incline-dumbbell-curl.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-incline-dumbbell-flys.html",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "cable-fly",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-cable-rear-delt-fly",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/decline-cable-flys.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/flat-bench-cable-flys.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-cable-flys.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-cable-reverse-fly.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/standing-cable-flys.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/swiss-ball-cable-flys.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "pull-up",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/archer-pull-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/band-assisted-pull-up-from-foot",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/band-assisted-pull-up-from-knee",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-pull-up.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/double-pause-pull-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/eccentric-only-pull-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/grip-ball-pull-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/l-sit-pull-up",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "barbell-row",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-barbell-row.html",
+        "score": 80
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-bench-barbell-row.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/rear-delt-barbell-row-to-neck.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/reverse-grip-incline-bench-barbell-row.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html",
+        "score": 30
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-kettlebell-row",
+        "score": 30
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-row.html",
+        "score": 30
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-bent-over-row.html",
+        "score": 30
+      }
+    ]
+  },
+  {
+    "id": "lat-pulldown",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/behind-neck-lat-pull-down.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/lat-pull-down.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/overhand-close-grip-lat-pull-down.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/reverse-grip-lat-pull-down.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/rope-lat-pull-down.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/straight-arm-lat-pull-down.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/underhand-close-grip-lat-pull-down.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-underhand-pull-down.html",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "overhead-press",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/military-press-behind-neck.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/military-press.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-bench-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-pullover-and-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/overhead-barbell-carry",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/overhead-barbell-extension.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/overhead-barbell-shrug",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/paused-barbell-bench-press",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "lateral-raise",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-lateral-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-lateral-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-lateral-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/seated-alternate-dumbbell-lateral-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/seated-dumbbell-lateral-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/seated-one-arm-dumbbell-lateral-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-seated-dumbbell-front-raise.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-standing-dumbbell-front-raise.html",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "barbell-squat",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/back-squat-against-chains",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/back-squat-to-box-against-chains",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/band-resisted-back-squat",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-hack-squat.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-side-split-squat.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/high-bar-back-squat",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/low-bar-back-squat",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-leg-barbell-squat.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "romanian-deadlift",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-stiff-leg-deadlift-on-bench.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-stiff-leg-deadlift.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-stiff-leg-deadlift.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-aka-romanian-deadlift.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-on-bench.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-sumo-romanian-deadlift",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/kettlebell-romanian-deadlift",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/landmine-romanian-deadlift",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "leg-press",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/narrow-stance-45-degree-leg-press.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-leg-45-degree-leg-press.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/smith-machine-leg-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/wall-press-straight-leg-extension",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/wide-stance-45-degree-leg-press.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "leg-curl",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-leg-lying-cable-hamstring-curl.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/leg-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/seated-leg-curl",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-exercise-ball-leg-curl",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-valslide-leg-curl",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/valslide-leg-curl",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/lying-alternate-floor-leg-raise.html",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "barbell-curl",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-concentration-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-drag-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-hammer-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-wrist-curl-over-bench.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-wrist-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-standing-barbell-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/ez-bar-reverse-grip-barbell-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/lying-barbell-curl-on-incline-bench.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "triceps-pushdown",
+    "candidates": []
+  },
+  {
+    "id": "standing-calf-raise",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bodyweight-standing-calf-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-leg-standing-calf-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/rocking-standing-calf-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/standing-calf-raise.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/standing-machine-calf-raise",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/standing-one-leg-calf-raise-with-dumbbell.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/toes-in-standing-machine-calf-raise",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/toes-out-standing-calf-raise",
+        "score": 60
+      }
+    ]
+  },
+  {
+    "id": "cable-crunch",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-crunch.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/decline-bench-cable-crunch.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/lying-cable-crunch.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/seated-cable-crunch.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/standing-cable-crunch.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/standing-oblique-cable-crunch.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/twisting-cable-crunch.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/twisting-lying-cable-crunch.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "push-up",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternating-medicine-ball-push-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternating-reach-push-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bird-dog-push-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bosu-ball-push-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-push-up.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/decline-push-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/eccentric-only-incline-push-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/eccentric-only-push-up",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "machine-chest-press",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-chest-press.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-inner-chest-press.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/close-grip-chest-press.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/decline-cable-chest-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-cable-chest-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/decline-smith-machine-bench-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-smith-machine-bench-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/machine-shoulder-press",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "dumbbell-row",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html",
+        "score": 80
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-upright-row.html",
+        "score": 80
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/chest-supported-dumbbell-row",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/chest-supported-dumbbell-row-with-isohold",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-upright-row.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-bench-two-arm-dumbbell-row.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/palms-in-bent-over-dumbbell-row.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "seated-cable-row",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/seated-high-cable-row.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-palm-rotational-row.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-row-to-neck.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-upright-row.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-bench-cable-row-rope-extension.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-bench-cable-row.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/lying-cable-upright-row.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/one-arm-cable-row.html",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "face-pull",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/banded-face-pull",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-face-pull",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/cable-face-pull-with-external-rotation",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/face-pull-on-rings",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/half-kneeling-banded-face-pull",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/standing-banded-face-pull-to-chest",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "dumbbell-shoulder-press",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-high-start.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-bench-press-low-start.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-floor-press",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-one-arm-standing-palms-in-dumbbell-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-seated-dumbbell-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-seated-palms-in-dumbbell-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-standing-dumbbell-press.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternating-dumbbell-bench-press-exercise-ball",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "reverse-fly",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-bent-over-dumbbell-reverse-fly.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-reverse-fly-on-incline-bench.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-lying-dumbbell-reverse-fly.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-seated-bent-over-dumbbell-reverse-fly.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-reverse-fly.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-reverse-fly-on-incline-bench.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-reverse-fly.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/lying-dumbbell-reverse-fly.html",
+        "score": 60
+      }
+    ]
+  },
+  {
+    "id": "hammer-curl",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-dumbbell-hammer-preacher-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-incline-hammer-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-seated-hammer-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternate-standing-hammer-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-hammer-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-hammer-preacher-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/hammer-bar-preacher-curl.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/hammer-curl-across-the-body.html",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "skull-crusher",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/banded-skullcrusher",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/california-skullcrusher",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/decline-lying-tricep-extension-skullcrusher.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/ez-bar-incline-skullcrusher.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/incline-skullcrusher.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/reverse-grip-skullcrusher.html",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "walking-lunge",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-walking-lunge.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bodyweight-walking-lunge.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/kettlebell-walking-lunge",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/walking-barbell-lunge.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/walking-quad-stretch-to-overhead-lunge",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/contralateral-load-dumbbell-front-lunge",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-lunge.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-rear-lunge.html",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "hip-thrust",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-hip-thrust",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bodyweight-hip-thrust",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/decline-leg-raise-with-hip-thrust.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/lying-leg-raise-with-hip-thrust.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-hip-thrust",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-hip-thrust-with-dumbbell",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "dumbbell-deadlift",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-deadlift.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-stiff-leg-deadlift-on-bench.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-stiff-leg-deadlift.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-one-dumbbell-deadlift",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "step-up",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/1-dumbbell-step-up",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/dumbbell-step-up.html",
+        "score": 60
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/1-kettlebell-step-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bodyweight-step-up.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/front-barbell-step-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/kettlebell-step-up",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/overhead-step-up",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "leg-extension",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/leg-extension.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-extension.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/toes-in-leg-extension.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/toes-out-leg-extension.html",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/wall-press-straight-leg-extension",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "glute-bridge",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/banded-glute-bridge",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/barbell-glute-bridge",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/bodyweight-glute-bridge",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/glute-bridge-pallof-press",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/knee-to-chest-single-leg-glute-bridge",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/marching-glute-bridge",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-glute-bridge",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "plank",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/plank-to-hip-raise",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/plank-with-feet-on-bench.html",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/push-up-to-side-plank",
+        "score": 20
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/side-plank-with-hip-dip",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "incline-walk",
+    "candidates": []
+  },
+  {
+    "id": "running",
+    "candidates": []
+  },
+  {
+    "id": "cycling",
+    "candidates": []
+  },
+  {
+    "id": "rowing-erg",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/concept-2-rowing-machine",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "id": "jump-rope",
+    "candidates": [
+      {
+        "url": "https://www.muscleandstrength.com/exercises/alternating-single-leg-jump-rope",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/front-to-back-jump-rope",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/jump-rope",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/reverse-jump-rope",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/side-to-side-jump-rope",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-jump-rope",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/single-leg-side-to-side-jump-rope",
+        "score": 40
+      },
+      {
+        "url": "https://www.muscleandstrength.com/exercises/skipping-jump-rope",
+        "score": 40
+      }
+    ]
+  },
+  {
+    "id": "burpee",
+    "candidates": []
+  }
+]

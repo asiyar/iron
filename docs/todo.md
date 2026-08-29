@@ -1,0 +1,124 @@
+# Project TODO
+
+- [x] IronPulse koyu tema, renk sistemi ve iOS odaklı arayüz bileşenleri
+- [x] Uygulama ikonunu üretme ve tüm mobil markalama alanlarını güncelleme
+- [x] Yerel antrenman, program, set, ölçüm ve tercih veri modelleri
+- [x] Antrenman şablonu ve egzersiz kütüphanesi yönetimi
+- [x] Aktif antrenmanda set, ağırlık, tekrar, RPE ve dinlenme kaydı
+- [x] Süperset oluşturma ve tur akışı
+- [x] Antrenman tamamlama özeti ve geçmiş kayıtlar
+- [x] Kişisel rekor, hacim, e1RM ve antrenman sıklığı analitiği
+- [x] Vücut ağırlığı kaydı ve değişim grafiği
+- [x] Kas grubu hacim ve denge analizi
+- [x] Otomatik ilerleme önerileri
+- [x] Face ID, Touch ID ve Android biyometrik uygulama kilidi
+- [x] Passkey tabanlı hesap erişimi için ürün ve teknik hazırlık
+- [x] Ayarlar, birim tercihleri ve veri gizliliği kontrolleri
+- [x] Birim testleri, tip denetimi ve mobil ekran kalite kontrolü
+- [x] Sürüm kaydı için uygulama ikonu varlıklarını optimize etme
+- [x] Apple Health ve Google Health Connect izinleri ile sağlık verisi senkronizasyonu
+- [x] Antrenör profili, özel program oluşturma ve toplulukta paylaşım akışı
+- [x] Geçmiş antrenman verilerine dayalı yapay zekâ destekli öneri modülü
+- [x] Sağlık/topluluk verileri için gizlilik tercihleri ve kalite kontrolleri
+- [x] Antrenman, adım ve vücut ağırlığı için minimum izinli sağlık veri kapsamı
+- [x] Varsayılan özel bağlantı ve isteğe bağlı herkese açık antrenör programı görünürlüğü
+- [x] Dokunulabilir ön/arka anatomik kas haritası ve hedef kas seçimi
+- [x] Hedef kasa göre egzersiz filtreleme ve program oluşturma kısayolu
+- [x] Egzersiz form ipuçları, adım dizileri ve hareketli demonstrasyon rehberi
+- [x] Anatomik görsel ve hareketli arayüz erişilebilirlik/performance kalite kontrolleri
+- [x] GLB insan anatomisi varlığı ve Expo uyumlu 3D çalışma zamanı
+- [x] Döndürme, yakınlaştırma ve anatomik bölgelerden kas seçimi
+- [x] GLB kas seçimini egzersiz öneri ve form rehberi akışına bağlama
+- [x] Gerçek cihaz performansı, hata geri dönüşü ve 3D kalite kontrolleri
+- [x] Büyük set kontrolleri, haptik geri bildirim, ekran açık tutma ve sesli dinlenme sayacıyla canlı antrenman modu
+- [x] Geçmiş performansa göre set/tekrar/ağırlık hedefi üreten adaptif program motoru
+- [x] Dönüşüm fotoğrafları, çevre ölçüleri, hedef tarihleri ve gelişim zaman çizelgesi
+- [x] Protein, su, uyku, adım ve öznel toparlanma günlüğü
+- [x] Koç–sporcu atama, yorum, kontrol listesi ve ilerleme görünümü
+- [x] Rozetler, devamlılık serileri, kilometre taşları ve meydan okumalar
+- [x] Cihaz içi kamera form rehberi, açık rıza ve mahremiyet kontrolleri
+- [x] Tüm yeni modüller için test, performans ve erişilebilirlik kalite kontrolleri
+- [ ] Apple Watch/Wear OS eşleme durumu ve telefon tarafı canlı set kontrol merkezi
+- [ ] Saat eşleşmesinde aktif antrenman, set tamamlama ve dinlenme senkronizasyon sözleşmesi
+- [ ] Apple Watch ve Wear OS referans istemci iskeletleri ile kurulum belgesi
+- [ ] Saat bağlantısında gecikme, çevrimdışı kuyruk ve hata geri dönüş kalite kontrolleri
+- [x] Akıllı takvimleme ve kaçan antrenmanı yeniden planlama
+- [x] Deload/toparlanma uyarıları ve aylık performans raporu
+- [x] Partnerli antrenman, ekipman profili ve sesli eller serbest kontrol
+- [x] Beslenme tarama/günlük akışı ile makro takibi
+- [x] İsteğe bağlı acil durum ve antrenman kısıtı kartı
+- [x] Yeni planlama, beslenme ve güvenlik modülleri için kalite kontrolleri
+- [x] Geliştirme hizmetini yeniden başlatma ve önizleme erişimini doğrulama
+- [x] Önizleme yükleme hatasını teşhis etme, Metro paketlemeyi düzeltme ve erişimi doğrulama
+- [x] Bugün, Aktif Antrenman ve Performans Merkezi için özgün görsel yön ve tasarım sistemi
+- [x] Tipografi, kart hiyerarşisi ve anlamlı mikro etkileşimlerin yeniden tasarlanması
+- [x] Bugün ve Aktif Antrenman ekranlarının rafine mobil deneyimle güncellenmesi
+- [x] Performans Merkezi ekranının rafine mobil deneyimle güncellenmesi
+- [x] Yenilenen ekranlar için erişilebilirlik, tip denetimi ve mobil kalite kontrolleri
+- [x] Web önizlemesinde GLB/Three.js yükünü ayırma ve hafif kas atlasına geri dönüş
+- [x] Lisans-uyumlu gerçekçi 3D insan kas anatomisi varlığını araştırma ve kaynak doğrulama
+- [x] Gerçekçi 3D kas atlası, katmanlı kas seçimi ve mobil etkileşim entegrasyonu
+- [x] Kardiyo, kas kazanımı, yağ kaybı, kilo alma ve bölgesel hedefler için kategori bazlı egzersiz keşfi
+- [x] Egzersize özgü lisans-uyumlu video/görsel rehber veya güvenilir harici rehber bağlantıları
+- [x] Yumuşak açık/koyu tema geçişi ve premium ilk kullanım onboarding akışı
+- [x] Sürükle-bırak ile kişiselleştirilebilir performans pano kartları
+- [x] Referanslardan ilham alan özgün tipografi, hareket dili ve görsel sistem rafinesi
+- [x] Varlık lisansı, mobil performans, erişilebilirlik ve uçtan uca kalite kontrolleri
+- [x] Gerçek anatomik katmanlar ve daha ayrıntılı kas bölgeleri için atlas kaynak/varlık denetimi
+- [x] Egzersiz kataloğu adları, kas eşleşmeleri ve video doğruluk matrisi oluşturma
+- [x] Doğrulanmış, lisans görünürlüğü olan egzersiz videolarını uygulama içi rehberde açma
+- [x] Atlas ve medya akışı için iOS/Android/web kalite denetimi
+- [x] Her egzersiz için kısa form, nefes ve dikkat edilecekler rehberi
+- [x] 3D kas atlası için zarif yükleme animasyonu ve erişilebilir yükleme durumu
+- [x] Uygulama içi video rehberi için açılış/yükleme animasyonu
+- [x] Yeni rehber ve yükleme akışları için test, tip denetimi ve web önizleme kontrolü
+- [x] İsteğe bağlı set içi nefes/form sesli koçluğu
+- [x] Form ipuçlarını işaretlenebilir mini set kontrol listesine dönüştürme
+- [x] Doğrulanmış videolar için lisans görünürlüğü olan çevrimdışı favori ve cihaz içi kaydetme
+- [x] Sesli koçluk, kontrol listesi ve video saklama akışları için kalite denetimi
+- [x] Sesli koçluk için kalıcı dil ve konuşma hızı tercihleri
+- [x] Tamamlanan form ve nefes kontrol listelerini antrenman sonu raporuna ekleme
+- [x] Yeni ses tercihleri ve uyum raporu için test, tip denetimi ve önizleme kontrolü
+- [x] Tüm katalog hareketleri için ayrıntılı uygulama, başlangıç, tekrar ve hata önleme rehberleri
+- [x] Her hareket için kaynak, lisans, başlık ve teknik erişim bakımından doğrulanmış video kapsama matrisi
+- [x] Ayrıntılı rehber ve video bulunurluğunu egzersiz detay deneyiminde görünür kılma
+- [x] Rehber/video eşleşmeleri için otomatik test ve uygulama önizleme doğrulaması
+- [x] Aktif antrenman ekranına açıklamalı kas atlası ve hedef kas kısayolu ekleme
+- [x] Ayrıntılı kas bölgesi seçimi ve seçili kas için öncelikli egzersiz sıralaması
+- [x] Antrenman günü/başarı sayacı ve görev sonrası motivasyon geri bildirimi
+- [x] Bugün ekranına amaç açıklamalı günlük koçluk kartı ekleme
+- [x] Hedef, deneyim, ekipman ve istenen fizik görünümü seçimiyle başlayan plan sihirbazı
+- [x] Seçilen hedefe göre haftalık, aylık ve uzun dönem antrenman planı oluşturma
+- [x] Genel beslenme planı, toparlanma notları ve sakatlık önleme güvenlik yönlendirmesi
+- [x] Yeni atlas, motivasyon ve plan akışları için kalite denetimi
+- [x] AI koç için maliyet optimizasyonu ve istek limiti stratejisi tasarlama
+- [x] IronPulse kullanım senaryoları için maliyet/performans model seçeneklerini karşılaştırma
+- [x] AI koçu yalnızca kullanıcı talebiyle başlatan güvenli mimari akışı belgeleme
+- [x] Kullanıcı tarafından bildirilen web önizleme erişim sorununu yeniden başlatıp doğrulama
+- [x] Egzersiz video rehberlerini harici tarayıcı yerine uygulama içi görüntüleyicide açma
+- [x] Uygulama içi görüntülemeye uygun eğitim video kaynaklarını araştırma ve doğrulama
+- [x] Doğrulanan yeni kaynakları güvenli video rehberi eşleşmelerine ekleme
+- [x] Beğenilen eğitim videolarını keşfetme ve yönetme için favoriler ekranı ekleme
+- [x] Yeni video kaynakları ve favori akışı için kalite denetimi
+- [x] Temel egzersizler için güvenli eğitim kaynaklarını hareket bazında doğrulama
+- [x] Doğrulanan temel egzersiz kaynaklarını uygulama içi rehber eşleşmelerine ekleme
+- [x] Favori eğitim videolarını kaynak ve hareket türüne göre filtreleme
+- [x] Video izleme geçmişini yerel olarak kaydetme ve profil içinde gösterme
+- [x] Yeni kaynak, filtre ve izleme geçmişi akışları için kalite denetimi
+- [x] Test edilmiş sürüm kaydı sonrası APK oluşturma adımını kullanıcıya bildirme
+- [ ] Apple App Store ve Google Play yayın gereksinimlerini uygulamanın mevcut veri kullanımıyla karşılaştırma
+- [ ] IronPulse için gizlilik politikası, destek sayfası ve mağaza listeleme taslaklarını hazırlama
+- [ ] Mağaza yayınına uygun uygulama yapılandırması, izin açıklamaları ve sürüm kontrol listesini tamamlama
+- [ ] GitHub deposu ve sürekli entegrasyon teslim akışını kullanıcı hesabıyla güvenli biçimde yapılandırma
+- [ ] App Store Connect ve Google Play Console girişleriyle mağaza kayıtlarını kullanıcı onayıyla oluşturma
+- [ ] IPA/AAB derlemesi ile mağaza gönderimini kullanıcı onayıyla başlatma
+- [ ] Reklam sıklığı ve antrenman koruması için etik zamanlama kurallarını tasarlama
+- [ ] Mağaza politikalarına uygun ücretsiz deneme, aylık/yıllık plan ve abonelik yönetimi kararlarını doğrulama
+- [ ] Şeffaf ödeme, deneme süresi, otomatik yenileme ve iptal bilgisini içeren premium ödeme duvarı oluşturma
+- [ ] Reklamsız premium faydaları ve ödeme duvarı performansını kullanıcıyı yanıltmadan anlatan içerikleri tasarlama
+- [ ] Ödeme duvarı için gizlilik, EULA, geri yükleme ve mağaza inceleme bilgilerini hazırlama
+- [ ] Reklam/abonelik akışı için test, erişilebilirlik ve mağaza uyumluluk denetimi
+
+- [ ] AdMob hesabında IronPulse için iOS/Android uygulama ve interstitial reklam birimlerini kullanıcı onayıyla oluşturma
+- [ ] AdMob kimliklerini güvenli yapılandırmaya ve native reklam akışına bağlama
+- [ ] AdMob reklam akışını test edip mağaza uyumluluk kontrolünü tamamlama

@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "barbell-bench-press",
+    "aliases": [
+      "barbell bench press",
+      "bench press"
+    ],
+    "sourceName": "Bench Press",
+    "score": 100,
+    "uuid": "3717d144-7815-4a97-9a56-956fb889c996",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/73/2bdb390c-312c-4497-a722-5eed2c823e5a.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "15.93"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/73/255b3509-e454-48a6-bf66-c7ca482be21a.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "20.78"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/73/cfb72002-898f-443a-a124-a0bce8a2e6ad.MP4",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "21.04"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Bench Press Narrow Grip",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "3db63138-a047-4a4d-b616-1a0b7dfca105"
+      },
+      {
+        "name": "Decline Bench Press Barbell",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "bcd801f0-9a38-4615-a91c-900153c8c234"
+      },
+      {
+        "name": "Decline Bench Press Dumbbell",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "dda69c96-62d4-4690-aa07-a4a0f6ceb63a"
+      },
+      {
+        "name": "Reverse Grip Bench Press",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "1b95d961-1d5c-4ded-b25e-c090295ffe37"
+      },
+      {
+        "name": "Incline Bench Press - Dumbbell",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "57e17672-52b9-43cf-8d0d-4b3f06a0c0d0"
+      },
+      {
+        "name": "Incline Bench Press - Barbell",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "275fb49f-975c-4d6e-9d63-2c86ed740f40"
+      }
+    ]
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "aliases": [
+      "incline dumbbell press"
+    ],
+    "sourceName": "Incline Bench Press - Dumbbell",
+    "score": 60,
+    "uuid": "57e17672-52b9-43cf-8d0d-4b3f06a0c0d0",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/537/b9c937e9-daeb-42a9-be8e-7a77e368478c.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "27.49"
+      }
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "cable-fly",
+    "aliases": [
+      "cable fly",
+      "standing cable fly"
+    ],
+    "sourceName": "Low Pulley Cable Fly",
+    "score": 80,
+    "uuid": "d5116fbd-bf14-492a-86b3-140035cb48b2",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Bent over Cable Flye",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "7ef2e00e-067c-48e0-9b42-3d622e0df8a4"
+      },
+      {
+        "name": "Reverse Cable Flye",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "39c13706-6a8c-4ab5-b605-b9b716665a20"
+      },
+      {
+        "name": "Cable Fly Middle Chest",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "5b4fb3ec-53a1-4525-a58a-c070798ea86e"
+      },
+      {
+        "name": "Cable Fly Upper Chest",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "b16a28c4-40bf-42d4-94b3-bf3f56fab743"
+      },
+      {
+        "name": "Cable Fly Lower Chest",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "ae695660-7cee-4601-8241-edd3e2a6d896"
+      },
+      {
+        "name": "Fly With Cable",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "07c5b9f4-2be5-4a3d-b6d2-16235da1ae3a"
+      }
+    ]
+  },
+  {
+    "id": "pull-up",
+    "aliases": [
+      "pull up",
+      "pull-up"
+    ],
+    "sourceName": "Pull-ups",
+    "score": 80,
+    "uuid": "8e420408-0682-4ab6-89f5-2681e54c7ce0",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/475/83067ffe-ccb9-4e22-8507-5131b211ce74.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "18.77"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Pull Ups on Machine",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "7f834f07-fa7b-46b6-8ffa-45930b0602db"
+      },
+      {
+        "name": "Leg raises pull up bar",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "b2025776-2397-4de7-a49e-296321169481"
+      },
+      {
+        "name": "commando pull-ups",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "e872658a-3bac-4d9e-bcf2-15919ebea43a"
+      },
+      {
+        "name": "Australian pull-ups",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "4037fc14-d7a9-4901-8341-6538e415adc4"
+      },
+      {
+        "name": "Front lever pull-up",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "b61dff58-6e47-4671-853b-208e7cd0ced4"
+      },
+      {
+        "name": "Reverse-grip pull-ups",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "2acb5ba1-caa3-4204-9903-ff0095b032ba"
+      }
+    ]
+  },
+  {
+    "id": "barbell-row",
+    "aliases": [
+      "barbell row",
+      "bent over barbell row"
+    ],
+    "sourceName": "Barbell Row (Overhand)",
+    "score": 80,
+    "uuid": "6ce25688-ae91-4dc7-9b17-0b66a47151fa",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Barbell Row (Underhand)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "3c2b5e2d-bd9d-43e8-8b5f-e6363331faa1"
+      }
+    ]
+  },
+  {
+    "id": "lat-pulldown",
+    "aliases": [
+      "lat pulldown",
+      "lat pull down"
+    ],
+    "sourceName": "Close-grip Lat Pull Down",
+    "score": 80,
+    "uuid": "63fbb8e5-6ebc-4def-8844-3e65e097213b",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Lat Pull Down (Leaning Back)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "8c496646-baa8-4ed3-97b1-702e213fdeca"
+      },
+      {
+        "name": "Lat Pull Down (Straight Back)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "fff05d7a-f374-4c8a-9885-39f49076918f"
+      },
+      {
+        "name": "Underhand Lat Pull Down",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "76965848-9776-4be5-b879-e3c97033b80f"
+      },
+      {
+        "name": "Wide-grip supinated lat pulldown",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "d33f3b19-436f-48a2-aff6-946582c94bdb"
+      },
+      {
+        "name": "Close-grip supinated lat pulldown",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "4eb41bfb-cbeb-4683-b9c6-902ee7e028e0"
+      },
+      {
+        "name": "1-Arm Half-Kneeling Lat Pulldown",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "a8a4ea81-9531-48e1-b6dc-f7621c7b9283"
+      }
+    ]
+  },
+  {
+    "id": "overhead-press",
+    "aliases": [
+      "overhead press",
+      "barbell shoulder press"
+    ],
+    "sourceName": "Overhead Press",
+    "score": 100,
+    "uuid": "f4467e9a-9bb1-4e93-bec6-10a5d7738ffb",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Shoulder Press, Barbell",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "8b0a0371-c0a9-42a7-aab7-68d520542fb2"
+      },
+      {
+        "name": "Overhead Barbell Press",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "2500c212-6f14-4a8d-a997-04e9e7c04116"
+      }
+    ]
+  },
+  {
+    "id": "lateral-raise",
+    "aliases": [
+      "lateral raise",
+      "dumbbell lateral raise"
+    ],
+    "sourceName": "Bent-over Lateral Raises",
+    "score": 80,
+    "uuid": "6f79b381-98a4-40d5-8a45-3bb0558be6fe",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/82/28b53647-27e7-47cf-8852-2ee666c8b628.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "7.60"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/82/ebf1e6d2-df48-44b8-a791-97f77e801bf3.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "6.97"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/82/437d79db-ac8f-49e2-8780-0365f94ee01c.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "6.37"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/82/7cfe6d04-5e59-4d0b-937b-b8f4ee10602d.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "9.80"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Lateral Raises",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "63375f5b-2d81-471c-bea4-fc3d207e96cb"
+      },
+      {
+        "name": "Cable Lateral Raises (Single Arm)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "81942f3d-d92c-431c-b9d0-0da12918d1e4"
+      },
+      {
+        "name": "Machine Lateral Raise",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "3d2adf99-8fe9-45cb-b669-c5b18242e282"
+      },
+      {
+        "name": "Side Lateral Raise (Cable)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "dba57084-d148-4b22-bb90-2fdd3a845ca4"
+      },
+      {
+        "name": "Machine Side Lateral Raises",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "dc87b735-016c-410b-915c-e3521fea4be7"
+      },
+      {
+        "name": "Side lateral raise - Front (Cable)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "7f9c13ab-1718-4f8a-8636-232f05f5f640"
+      }
+    ]
+  },
+  {
+    "id": "barbell-squat",
+    "aliases": [
+      "barbell squat",
+      "squat"
+    ],
+    "sourceName": "Front Squats",
+    "score": 80,
+    "uuid": "d677de4c-5bd9-412a-91f1-857116a666a2",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/257/ad8ac7d9-b04d-415f-ae0e-837942ce2840.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "19.36"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/257/f8f01bf8-0908-4915-a8f5-cc7bcfefff8c.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "17.04"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/257/93145935-29db-4e52-9d2d-174b1c30c098.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "8.25"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/257/520b98d4-c767-47dd-83e6-850189217925.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "16.09"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Barbell Hack Squats",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "dae6f6ed-9408-4e62-a59a-1a33f4e8ab36"
+      },
+      {
+        "name": "Braced Squat",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "8c6428f3-d41d-4ffc-8444-bb9b823bc42b"
+      },
+      {
+        "name": "Dumbbell Goblet Squat",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "b7c6a444-90ea-4f5b-9fea-748311606eaa"
+      },
+      {
+        "name": "Hindu Squats",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "1d610575-eed0-42cf-8737-29788a372af6"
+      },
+      {
+        "name": "Squats on Multipress",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "316aca47-6f5b-40b7-b04f-f69e68387354"
+      },
+      {
+        "name": "Low Box Squat - Wide Stance",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "183e7279-f052-4c70-8381-bbbda3bb9afe"
+      }
+    ]
+  },
+  {
+    "id": "romanian-deadlift",
+    "aliases": [
+      "romanian deadlift"
+    ],
+    "sourceName": "Romanian Deadlift",
+    "score": 100,
+    "uuid": "2e7ffff9-e603-4b28-98c8-31d1a6ce8cd9",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/507/307e7276-a14d-4ea0-b579-f5b0dbc6f5af.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "13.00"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/507/6b6054b5-9236-4a63-8392-6ea7a9010ca6.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "17.69"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/507/e96295da-58b8-4b6f-921e-4cb1af3c6cfc.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "29.50"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Dumbbell Romanian Deadlift",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "65d12ecf-54b8-466d-a412-e55c396cad69"
+      },
+      {
+        "name": "Barbell Romanian Deadlift (RDL)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "72129e4f-df97-4869-9561-33a1ba3c9186"
+      }
+    ]
+  },
+  {
+    "id": "leg-press",
+    "aliases": [
+      "leg press"
+    ],
+    "sourceName": "Leg Press",
+    "score": 100,
+    "uuid": "66a42396-c207-44da-bc75-758a89d32404",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/371/6aae16b4-01b9-4eb4-935c-3250f84d2c59.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "34.69"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/371/32601896-b84a-49bf-ae8a-b27a8f57ab21.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "26.36"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/371/db382bd9-f633-47cd-8b02-c52db835e41d.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "17.64"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Calf Press Using Leg Press Machine",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "0d79f259-3b28-4258-8a08-cffec062a710"
+      },
+      {
+        "name": "Leg Presses (narrow)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "5f0b757c-0d6a-430b-9d5e-3bfba202878e"
+      },
+      {
+        "name": "Leg Presses (wide)",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "661287d4-d1dc-485c-896b-73f90b000536"
+      },
+      {
+        "name": "Leg Press on Hackenschmidt Machine",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "18104387-4567-4c1e-8d03-db0b274646dd"
+      },
+      {
+        "name": "Leg Press Toe Press",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "0cc9c8ed-57f1-42c3-a4c4-6e57e6a1b878"
+      },
+      {
+        "name": "No Leg Drive Dumbbell Chest Press",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "10b0684c-1c48-4be6-913e-19bf1419107b"
+      }
+    ]
+  },
+  {
+    "id": "leg-curl",
+    "aliases": [
+      "leg curl",
+      "lying leg curl"
+    ],
+    "sourceName": "Leg Curls (laying)",
+    "score": 80,
+    "uuid": "3bc8b411-a28d-4e1c-a6d1-769e18fe9881",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/365/becaf013-5044-40d0-bae9-7ed60c973737.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "15.06"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/365/1106bd7a-72cd-45b5-853f-5c9912b936ef.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "23.53"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Leg Curl",
+        "score": 100,
+        "hasVideo": false,
+        "uuid": "48836f44-efcd-4471-a456-5f024936025a"
+      },
+      {
+        "name": "Leg Curls (sitting)",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "440a5184-de58-4a86-a7ba-76ddeafaa855"
+      },
+      {
+        "name": "Leg Curls (standing)",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "49189e88-40b6-4c0d-a784-0cc3abbb8e75"
+      },
+      {
+        "name": "Leg curl with elastic",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "ca514fad-c6ce-47b0-93a0-dc73a3507099"
+      },
+      {
+        "name": "Single-leg hamstring curl",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "caccd791-ff30-452a-816e-790edadb78cd"
+      }
+    ]
+  },
+  {
+    "id": "barbell-curl",
+    "aliases": [
+      "barbell curl"
+    ],
+    "sourceName": "Reverse Grip Barbell Curls",
+    "score": 80,
+    "uuid": "dd6e8753-a574-476e-900a-b794eb592e7b",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Barbell Reverse Wrist Curl",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "67c26c9b-32f3-4b8b-b13a-4d8be4803975"
+      },
+      {
+        "name": "Barbell Wrist Curl",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "cfb6a754-57be-431b-b8d0-d9963120bd5a"
+      }
+    ]
+  },
+  {
+    "id": "triceps-pushdown",
+    "aliases": [
+      "triceps pushdown",
+      "cable triceps pushdown"
+    ],
+    "sourceName": "Triceps Pushdown",
+    "score": 100,
+    "uuid": "6ebb138e-bb0a-402e-84e5-68fe0896e897",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Rocking Triceps Pushdown",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "0dfe655e-ee2e-4c49-a279-c672d5591613"
+      }
+    ]
+  },
+  {
+    "id": "standing-calf-raise",
+    "aliases": [
+      "standing calf raise",
+      "calf raise"
+    ],
+    "sourceName": "Sitting Calf Raises",
+    "score": 80,
+    "uuid": "6e46833d-fd83-4c1a-90af-eb3f3a917199",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/590/a325ae2e-686b-4a1f-aff2-ba37fa3fa157.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "20.71"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Calf Raises on Hackenschmitt Machine",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "95a9cc46-270e-45f2-8a17-5665a23ff70b"
+      },
+      {
+        "name": "Standing Calf Raises",
+        "score": 80,
+        "hasVideo": true,
+        "uuid": "7ce443b6-eb84-4f65-b05f-461c1cc8bcc0"
+      },
+      {
+        "name": "Calf raises, one legged",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "4e752292-051a-4043-8f80-a390c23875e6"
+      },
+      {
+        "name": "Calf raises, right leg",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "04ba9a37-4725-43f0-a0b6-767cdab9a79e"
+      },
+      {
+        "name": "Calf raises, left leg",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "db4eaf0f-f4d4-4e63-b9fb-258985bc2858"
+      },
+      {
+        "name": "Double Leg Calf Raise",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "58ca3e51-ea64-4771-a74a-a74d29f5c40c"
+      }
+    ]
+  },
+  {
+    "id": "cable-crunch",
+    "aliases": [
+      "cable crunch"
+    ],
+    "sourceName": null,
+    "score": 0,
+    "uuid": null,
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "push-up",
+    "aliases": [
+      "push up",
+      "push-up"
+    ],
+    "sourceName": "Push-Up",
+    "score": 100,
+    "uuid": "f5b84269-18af-4464-a61f-b767cbcd81dc",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Diamond push ups",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "de22963a-5d42-4999-860e-377f64359432"
+      },
+      {
+        "name": "Pike Push Ups",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "3b96a05b-9705-48da-b43e-6e098234bb35"
+      },
+      {
+        "name": "Side to Side Push Ups",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "9374fdaf-411f-4ae6-8f0c-21cc2d3dc667"
+      },
+      {
+        "name": "Dumbbell Push-Up",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "68e5eae7-7fd0-4d69-9b50-d0df15feac91"
+      },
+      {
+        "name": "Push-up rotations",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "a9633731-1d86-4b4a-996f-33a1dee0b0e1"
+      },
+      {
+        "name": "No push-up burpees",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "853e4429-da4a-492d-b042-5c124282c005"
+      }
+    ]
+  },
+  {
+    "id": "machine-chest-press",
+    "aliases": [
+      "chest press machine",
+      "machine chest press"
+    ],
+    "sourceName": "Leverage Machine Chest Press",
+    "score": 80,
+    "uuid": "82aec7f9-ee03-4b24-8994-f6bde07c6a41",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "dumbbell-row",
+    "aliases": [
+      "one arm dumbbell row",
+      "one-arm dumbbell row"
+    ],
+    "sourceName": null,
+    "score": 0,
+    "uuid": null,
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "seated-cable-row",
+    "aliases": [
+      "seated cable row"
+    ],
+    "sourceName": "Seated Cable Row",
+    "score": 100,
+    "uuid": "0ecfec6f-5d0f-4e8a-8d37-f6203a8923b8",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "face-pull",
+    "aliases": [
+      "face pull"
+    ],
+    "sourceName": "Dumbbell Bent Over Face Pull",
+    "score": 80,
+    "uuid": "51ab6376-eb3e-42dc-ad48-46166c94adac",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Face pulls with yellow/green band",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "7bf4e131-d4a3-44c0-8fca-9e10002492e7"
+      },
+      {
+        "name": "Face Pulls (Bodyweight Doorframe/Towel)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "52093ce1-2544-4b48-ad15-6e02de9b576d"
+      }
+    ]
+  },
+  {
+    "id": "dumbbell-shoulder-press",
+    "aliases": [
+      "dumbbell shoulder press"
+    ],
+    "sourceName": "Single-arm dumbbell shoulder press",
+    "score": 80,
+    "uuid": "9dfce8f0-39fc-4204-9f84-500ec42074e9",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "reverse-fly",
+    "aliases": [
+      "reverse fly",
+      "dumbbell reverse fly"
+    ],
+    "sourceName": "Incline Bench Reverse Fly",
+    "score": 80,
+    "uuid": "70c99a4e-3340-4993-a7f1-2d2709dada1a",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Reverse Fly Standing",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "440cf10c-effb-4b63-a6e0-182fe47376f6"
+      }
+    ]
+  },
+  {
+    "id": "hammer-curl",
+    "aliases": [
+      "hammer curl"
+    ],
+    "sourceName": "Hammer Curls",
+    "score": 80,
+    "uuid": "c0d9fe98-f4fe-49f3-8037-05e1984e7d2d",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/272/df069052-2173-4f24-855f-a0eebe729f24.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "10.37"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "TRX hammer curl",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "f36a9fd0-7bd2-42a4-85fa-902b7cf3be45"
+      },
+      {
+        "name": "DB Cross Body Hammer Curls",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "038f7cb1-6aa3-4c48-a19d-a31993f7b0d8"
+      },
+      {
+        "name": "Alternating dumbbell hammer curl",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "eb9476ac-2c00-4f49-a40f-f81682161a75"
+      },
+      {
+        "name": "DB Hammer Curls (5kg)",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "6e5e15f0-5722-46d6-ad89-719c581da436"
+      }
+    ]
+  },
+  {
+    "id": "skull-crusher",
+    "aliases": [
+      "skull crusher",
+      "lying triceps extension"
+    ],
+    "sourceName": "Floor Skull Crusher",
+    "score": 80,
+    "uuid": "6b68043c-a900-41f4-89fb-ea5c8193f216",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Lying Triceps Extensions",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "8a356e9a-0058-4f60-b8d7-89147c3c371f"
+      }
+    ]
+  },
+  {
+    "id": "walking-lunge",
+    "aliases": [
+      "walking lunge"
+    ],
+    "sourceName": null,
+    "score": 0,
+    "uuid": null,
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "hip-thrust",
+    "aliases": [
+      "barbell hip thrust",
+      "hip thrust"
+    ],
+    "sourceName": "Hip Thrust",
+    "score": 100,
+    "uuid": "19a289c0-33af-4055-bb34-3570c2975d3d",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/294/45bacf4b-1bb6-4d47-8bd1-9f00eddd4019.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "30.19"
+      },
+      {
+        "url": "https://wger.de/media/exercise-video/294/7d6862eb-8848-4f5d-a288-764b0d113108.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "26.13"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Dumbbell Single-leg Hip Thrust",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "7cc24acf-3fc9-4d14-a461-cd00d1d18f0e"
+      },
+      {
+        "name": "Dumbbell Hip Thrust",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "af77220c-098c-47c2-9f8c-92a651998903"
+      },
+      {
+        "name": "Unilateral Hip Thrust",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "139e3d1a-ccd5-46cd-b953-8db6cea7b005"
+      }
+    ]
+  },
+  {
+    "id": "dumbbell-deadlift",
+    "aliases": [
+      "dumbbell deadlift"
+    ],
+    "sourceName": "Dumbbell Deadlift",
+    "score": 100,
+    "uuid": "b199baca-7353-4dee-bbcf-620f96dba5b4",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Dumbbell sumo deadlift",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "0c30c543-e2cc-499b-bc31-8c28db445ed2"
+      },
+      {
+        "name": "Dumbbell Romanian Deadlift",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "65d12ecf-54b8-466d-a412-e55c396cad69"
+      },
+      {
+        "name": "Single-Leg Deadlift with Dumbbell",
+        "score": 60,
+        "hasVideo": false,
+        "uuid": "a630de17-9170-434c-b486-96a6b8705506"
+      }
+    ]
+  },
+  {
+    "id": "step-up",
+    "aliases": [
+      "dumbbell step up",
+      "step-up"
+    ],
+    "sourceName": "Weighted Step-ups",
+    "score": 80,
+    "uuid": "591992cb-48ee-4b39-b790-e05b4a2c11e3",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Step-ups",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "9e6dae29-5d03-440a-bdf1-2cb25a5179c2"
+      }
+    ]
+  },
+  {
+    "id": "leg-extension",
+    "aliases": [
+      "leg extension"
+    ],
+    "sourceName": "Leg Extension",
+    "score": 100,
+    "uuid": "62170477-90ec-463c-907e-9e523abc0a15",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Single Leg Extension",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "046fce45-69f2-46f7-a5b6-79a25a485af1"
+      }
+    ]
+  },
+  {
+    "id": "glute-bridge",
+    "aliases": [
+      "glute bridge"
+    ],
+    "sourceName": "Glute Bridge",
+    "score": 100,
+    "uuid": "ceb0c2d0-06ac-4a49-89e7-8d7b1c1e5672",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Glute Bridge Single-Arm Press",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "8c4a9c16-294b-40e5-ba6d-50ae523704ba"
+      },
+      {
+        "name": "Single Leg Glute Bridge",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "68f1efb8-e7d2-4a79-99bb-65f128e10a11"
+      }
+    ]
+  },
+  {
+    "id": "plank",
+    "aliases": [
+      "plank"
+    ],
+    "sourceName": "Plank",
+    "score": 100,
+    "uuid": "c9e57bbe-e839-44c6-861d-1c8dd2845e36",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Incline Plank With Alternate Floor Touch",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "aae91ecf-ffa4-4730-812c-cb00e423f91c"
+      },
+      {
+        "name": "Reverse Plank",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "09349391-375b-42d5-8979-00a5d7196a5b"
+      },
+      {
+        "name": "Side Plank",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "e1b99153-0102-47fc-b0cd-c21509827b0b"
+      },
+      {
+        "name": "High plank",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "b2b40a54-e42b-49ec-97da-4c929ae41d42"
+      },
+      {
+        "name": "Side plank right",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "5e2761cf-839e-435e-bedb-35e132dcb5ce"
+      },
+      {
+        "name": "Single Arm Plank to Row",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "768e0703-a04d-4d97-89ce-a49cd6be2b06"
+      }
+    ]
+  },
+  {
+    "id": "incline-walk",
+    "aliases": [
+      "incline treadmill walk",
+      "incline walk"
+    ],
+    "sourceName": null,
+    "score": 0,
+    "uuid": null,
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "running",
+    "aliases": [
+      "running intervals",
+      "running"
+    ],
+    "sourceName": "Zone 2 Running",
+    "score": 80,
+    "uuid": "89c3d614-e841-4c04-bee8-6761567e4b7c",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "cycling",
+    "aliases": [
+      "stationary cycling",
+      "cycling"
+    ],
+    "sourceName": "Cycling",
+    "score": 100,
+    "uuid": "8dedde58-a5dc-4a23-ad20-fd7cf524f8b5",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "Cycling cardio session",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "517265a2-e4f7-4b33-979f-9be1efd86343"
+      }
+    ]
+  },
+  {
+    "id": "rowing-erg",
+    "aliases": [
+      "rowing ergometer",
+      "rowing"
+    ],
+    "sourceName": "Rowing seated, narrow grip",
+    "score": 80,
+    "uuid": "00fcf603-b0d0-48d2-9b5e-c7f0d510d46c",
+    "hasVideo": true,
+    "videos": [
+      {
+        "url": "https://wger.de/media/exercise-video/512/fff4c294-93f0-4926-b3a2-bf59ad4afaa5.MOV",
+        "license": 2,
+        "author": "Goulart",
+        "duration": "10.49"
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Bent Over Rowing",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "4af6dbd9-8991-484b-9810-68f117c21edf"
+      },
+      {
+        "name": "Bent Over Rowing Reverse",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "2f0ddf9a-f520-4c55-8883-f0d4a789f481"
+      },
+      {
+        "name": "Rowing, Lying on Bench",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "88dbcc74-0304-4fcf-8a47-92d14a484b0a"
+      },
+      {
+        "name": "Rowing, T-bar",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "32c129f7-cc28-4ebc-8465-e4fa62e220b1"
+      },
+      {
+        "name": "Rowing with TRX band",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "8766d43c-e035-4c37-b824-b94dce5bf710"
+      },
+      {
+        "name": "Rowing Machine",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "f6d8e157-c233-4a22-9c1a-83cb8f613ea5"
+      }
+    ]
+  },
+  {
+    "id": "jump-rope",
+    "aliases": [
+      "jump rope",
+      "skipping rope"
+    ],
+    "sourceName": "Jump rope: basic jumps",
+    "score": 80,
+    "uuid": "cd51aa2a-52b3-43df-8011-0c8ef4b7ed11",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": []
+  },
+  {
+    "id": "burpee",
+    "aliases": [
+      "burpee"
+    ],
+    "sourceName": "Burpees",
+    "score": 80,
+    "uuid": "48ee1385-47c5-4821-8b6a-57fac6130776",
+    "hasVideo": false,
+    "videos": [],
+    "alternatives": [
+      {
+        "name": "4-count burpees",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "18d277a0-7222-46e7-b2bf-47c8ed169c30"
+      },
+      {
+        "name": "No push-up burpees",
+        "score": 80,
+        "hasVideo": false,
+        "uuid": "853e4429-da4a-492d-b042-5c124282c005"
+      }
+    ]
+  }
+]

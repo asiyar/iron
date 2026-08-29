@@ -1,0 +1,17 @@
+import { useEffect, useState } from "react";
+import { Animated, StyleSheet, Text, View } from "react-native";
+
+import type { MotionKind } from "@/lib/exercise-guides";
+
+export function ExerciseMotion({ motion }: { motion: MotionKind }) {
+  // React Compiler render sırasında ref okumayı uyarır; lazy useState aynı kalıcılığı sağlar.
+  const [phase] = useState(() => new Animated.Value(0));
+  useEffect(() => { const loop = Animated.loop(Animated.sequence([Animated.timing(phase, { toValue: 1, duration: 1050, useNativeDriver: true }), Animated.timing(phase, { toValue: 0, duration: 1050, useNativeDriver: true })])); loop.start(); return () => loop.stop(); }, [phase]);
+  const squatLike = motion === "squat" || motion === "hinge" || motion === "calf";
+  const rotate = phase.interpolate({ inputRange: [0, 1], outputRange: squatLike ? ["0deg", motion === "hinge" ? "28deg" : "-18deg"] : ["-8deg", motion === "pull" ? "24deg" : "-42deg"] });
+  const lift = phase.interpolate({ inputRange: [0, 1], outputRange: [0, squatLike ? 22 : -28] });
+  const label = motion === "pull" ? "Çekiş fazı" : motion === "squat" ? "Alçal / yüksel" : motion === "hinge" ? "Kalçadan katlan" : motion === "core" ? "Kontrollü sık" : "Kontrollü hareket";
+  return <View style={styles.stage}><View style={styles.grid} /><Animated.View style={[styles.figure, { transform: [{ translateY: lift }, { rotate: squatLike ? rotate : "0deg" }] }]}><View style={styles.head} /><View style={styles.torso} /><Animated.View style={[styles.arm, styles.leftArm, { transform: [{ rotate: squatLike ? "0deg" : rotate }] }]} /><Animated.View style={[styles.arm, styles.rightArm, { transform: [{ rotate: squatLike ? "0deg" : rotate }] }]} /><View style={styles.legLeft} /><View style={styles.legRight} /><Animated.View style={[styles.bar, { transform: [{ translateY: lift }] }]} /></Animated.View><View style={styles.motionLabel}><View style={styles.pulse} /><Text style={styles.motionText}>{label}</Text></View></View>;
+}
+
+const styles = StyleSheet.create({ stage: { height: 230, backgroundColor: "#0D141D", overflow: "hidden", borderRadius: 20, justifyContent: "center", alignItems: "center" }, grid: { position: "absolute", width: "160%", height: 1, backgroundColor: "#263141", bottom: 35 }, figure: { width: 118, height: 177, alignItems: "center", justifyContent: "flex-start" }, head: { width: 25, height: 25, borderRadius: 13, backgroundColor: "#D7DEE8" }, torso: { width: 42, height: 62, marginTop: 3, backgroundColor: "#60A5FA", borderRadius: 14 }, arm: { position: "absolute", top: 33, width: 14, height: 73, borderRadius: 10, backgroundColor: "#B8FF3D" }, leftArm: { left: 18, transformOrigin: "top" }, rightArm: { right: 18, transformOrigin: "top" }, legLeft: { position: "absolute", top: 84, left: 36, width: 18, height: 79, borderRadius: 12, backgroundColor: "#F97316", transform: [{ rotate: "8deg" }] }, legRight: { position: "absolute", top: 84, right: 36, width: 18, height: 79, borderRadius: 12, backgroundColor: "#F97316", transform: [{ rotate: "-8deg" }] }, bar: { position: "absolute", top: 23, width: 138, height: 5, borderRadius: 5, backgroundColor: "#F5F7FA" }, motionLabel: { position: "absolute", bottom: 13, backgroundColor: "#172231", borderRadius: 99, paddingHorizontal: 10, paddingVertical: 6, flexDirection: "row", gap: 6, alignItems: "center" }, pulse: { width: 6, height: 6, borderRadius: 4, backgroundColor: "#B8FF3D" }, motionText: { color: "#D7DEE8", fontSize: 11, fontWeight: "900" } });

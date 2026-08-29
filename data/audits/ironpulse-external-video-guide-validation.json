@@ -1,0 +1,382 @@
+[
+  {
+    "id": "barbell-bench-press",
+    "url": "https://www.muscleandstrength.com/exercises/barbell-bench-press.html",
+    "status": 200,
+    "title": "Barbell Bench Press: Video Exercise Guide & Tips",
+    "expectedTitle": "Barbell Bench Press",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "url": "https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html",
+    "status": 200,
+    "title": "Incline Dumbbell Bench Press: Video Exercise Guide & Tips",
+    "expectedTitle": "Incline Dumbbell Bench Press",
+    "matchedWords": 4,
+    "expectedWords": 4,
+    "verified": true
+  },
+  {
+    "id": "cable-fly",
+    "url": "https://www.muscleandstrength.com/exercises/standing-cable-flys.html",
+    "status": 200,
+    "title": "Standing Cable Reverse Fly: Video Exercise Guide & Tips",
+    "expectedTitle": "Standing Cable Flys",
+    "matchedWords": 2,
+    "expectedWords": 3,
+    "verified": false
+  },
+  {
+    "id": "barbell-row",
+    "url": "https://www.muscleandstrength.com/exercises/bent-over-barbell-row.html",
+    "status": 200,
+    "title": "Bent Over Row: Video Exercise Guide & Tips",
+    "expectedTitle": "Bent Over Barbell Row",
+    "matchedWords": 3,
+    "expectedWords": 4,
+    "verified": false
+  },
+  {
+    "id": "lat-pulldown",
+    "url": "https://www.muscleandstrength.com/exercises/lat-pull-down.html",
+    "status": 200,
+    "title": "Lat Pull Down: Video Exercise Guide & Tips",
+    "expectedTitle": "Lat Pull Down",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "overhead-press",
+    "url": "https://www.muscleandstrength.com/exercises/military-press.html",
+    "status": 200,
+    "title": "Military Press (AKA Overhead Press): Video Exercise Guide & Tips",
+    "expectedTitle": "Military Press",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "lateral-raise",
+    "url": "https://www.muscleandstrength.com/exercises/dumbbell-lateral-raise.html",
+    "status": 200,
+    "title": "Dumbbell Lateral Raise: Video Exercise Guide & Tips",
+    "expectedTitle": "Dumbbell Lateral Raise",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "romanian-deadlift",
+    "url": "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-aka-romanian-deadlift.html",
+    "status": 200,
+    "title": "Stiff Leg Deadlift: Video Exercise Guide & Tips",
+    "expectedTitle": "Stiff Leg Deadlift AKA Romanian Deadlift",
+    "matchedWords": 4,
+    "expectedWords": 6,
+    "verified": false
+  },
+  {
+    "id": "leg-press",
+    "url": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+    "status": 200,
+    "title": "Leg Press: Video Exercise Guide & Tips",
+    "expectedTitle": "45 Degree Leg Press",
+    "matchedWords": 2,
+    "expectedWords": 4,
+    "verified": false
+  },
+  {
+    "id": "leg-curl",
+    "url": "https://www.muscleandstrength.com/exercises/leg-curl.html",
+    "status": 200,
+    "title": "Leg Curl: Video Exercise Guide & Tips",
+    "expectedTitle": "Leg Curl",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "standing-calf-raise",
+    "url": "https://www.muscleandstrength.com/exercises/standing-calf-raise.html",
+    "status": 200,
+    "title": "Standing Barbell Calf Raise: Video Exercise Guide & Tips",
+    "expectedTitle": "Standing Calf Raise",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "cable-crunch",
+    "url": "https://www.muscleandstrength.com/exercises/cable-crunch.html",
+    "status": 200,
+    "title": "Cable Crunch: Video Exercise Guide & Tips",
+    "expectedTitle": "Cable Crunch",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "push-up",
+    "url": "https://www.muscleandstrength.com/exercises/push-up.html",
+    "status": 200,
+    "title": "Push Up: Video Exercise Guide & Tips",
+    "expectedTitle": "Push Up",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "dumbbell-row",
+    "url": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html",
+    "status": 200,
+    "title": "One Arm Dumbbell Row: Video Exercise Guide & Tips",
+    "expectedTitle": "One Arm Dumbbell Row",
+    "matchedWords": 4,
+    "expectedWords": 4,
+    "verified": true
+  },
+  {
+    "id": "reverse-fly",
+    "url": "https://www.muscleandstrength.com/exercises/dumbbell-reverse-fly.html",
+    "status": 200,
+    "title": "Seated Bent Over Dumbbell Reverse Fly: Video Exercise Guide & Tips",
+    "expectedTitle": "Dumbbell Reverse Fly",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "walking-lunge",
+    "url": "https://www.muscleandstrength.com/exercises/dumbbell-walking-lunge.html",
+    "status": 200,
+    "title": "Dumbbell Walking Lunge: Video Exercise Guide & Tips",
+    "expectedTitle": "Dumbbell Walking Lunge",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "hip-thrust",
+    "url": "https://www.muscleandstrength.com/exercises/barbell-hip-thrust",
+    "status": 200,
+    "title": "Barbell Hip Thrust: Video Exercise Guide & Tips",
+    "expectedTitle": "Barbell Hip Thrust",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "dumbbell-deadlift",
+    "url": "https://www.muscleandstrength.com/exercises/dumbbell-deadlift.html",
+    "status": 200,
+    "title": "Dumbbell Deadlift: Video Exercise Guide & Tips",
+    "expectedTitle": "Dumbbell Deadlift",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "step-up",
+    "url": "https://www.muscleandstrength.com/exercises/dumbbell-step-up.html",
+    "status": 200,
+    "title": "Dumbbell Step Up: Video Exercise Guide & Tips",
+    "expectedTitle": "Dumbbell Step Up",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "leg-extension",
+    "url": "https://www.muscleandstrength.com/exercises/leg-extension.html",
+    "status": 200,
+    "title": "Leg Extension: Video Exercise Guide & Tips",
+    "expectedTitle": "Leg Extension",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "jump-rope",
+    "url": "https://www.muscleandstrength.com/exercises/jump-rope",
+    "status": 200,
+    "title": "Jump Rope Exercise Videos: Learn How To Do Jump Rope Exercises | Muscle &amp; Strength",
+    "expectedTitle": "Jump Rope",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "barbell-row-variant",
+    "url": "https://www.muscleandstrength.com/exercises/bent-over-barbell-row.html",
+    "status": 200,
+    "title": "Bent Over Row: Video Exercise Guide & Tips",
+    "expectedTitle": "Bent Over Row",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "barbell-squat-variant",
+    "url": "https://www.muscleandstrength.com/exercises/squat.html",
+    "status": 200,
+    "title": "Barbell Back Squat: Video Exercise Guide & Tips",
+    "expectedTitle": "Squat",
+    "matchedWords": 1,
+    "expectedWords": 1,
+    "verified": true
+  },
+  {
+    "id": "leg-press-variant",
+    "url": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+    "status": 200,
+    "title": "Leg Press: Video Exercise Guide & Tips",
+    "expectedTitle": "Leg Press",
+    "matchedWords": 2,
+    "expectedWords": 2,
+    "verified": true
+  },
+  {
+    "id": "barbell-curl-variant",
+    "url": "https://www.muscleandstrength.com/exercises/standing-barbell-curl.html",
+    "status": 200,
+    "title": "Standing Barbell Curl: Video Exercise Guide & Tips",
+    "expectedTitle": "Standing Barbell Curl",
+    "matchedWords": 3,
+    "expectedWords": 3,
+    "verified": true
+  },
+  {
+    "id": "triceps-pushdown-variant",
+    "url": "https://www.muscleandstrength.com/exercises/tricep-pushdown.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Tricep Pushdown",
+    "matchedWords": 0,
+    "expectedWords": 2,
+    "verified": false
+  },
+  {
+    "id": "machine-chest-press-variant",
+    "url": "https://www.muscleandstrength.com/exercises/machine-chest-press.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Machine Chest Press",
+    "matchedWords": 0,
+    "expectedWords": 3,
+    "verified": false
+  },
+  {
+    "id": "seated-cable-row-variant",
+    "url": "https://www.muscleandstrength.com/exercises/seated-cable-row.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Seated Cable Row",
+    "matchedWords": 0,
+    "expectedWords": 3,
+    "verified": false
+  },
+  {
+    "id": "face-pull-variant",
+    "url": "https://www.muscleandstrength.com/exercises/face-pull.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Face Pull",
+    "matchedWords": 0,
+    "expectedWords": 2,
+    "verified": false
+  },
+  {
+    "id": "dumbbell-shoulder-press-variant",
+    "url": "https://www.muscleandstrength.com/exercises/dumbbell-shoulder-press.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Dumbbell Shoulder Press",
+    "matchedWords": 0,
+    "expectedWords": 3,
+    "verified": false
+  },
+  {
+    "id": "skull-crusher-variant",
+    "url": "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html",
+    "status": 200,
+    "title": "EZ Bar Skullcrusher: Video Exercise Guide & Tips",
+    "expectedTitle": "Skullcrusher",
+    "matchedWords": 1,
+    "expectedWords": 1,
+    "verified": true
+  },
+  {
+    "id": "glute-bridge-variant",
+    "url": "https://www.muscleandstrength.com/exercises/glute-bridge.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Glute Bridge",
+    "matchedWords": 0,
+    "expectedWords": 2,
+    "verified": false
+  },
+  {
+    "id": "plank-variant",
+    "url": "https://www.muscleandstrength.com/exercises/plank.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Plank",
+    "matchedWords": 0,
+    "expectedWords": 1,
+    "verified": false
+  },
+  {
+    "id": "incline-walk-variant",
+    "url": "https://www.muscleandstrength.com/exercises/incline-treadmill-walk.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Treadmill Incline Walk",
+    "matchedWords": 0,
+    "expectedWords": 3,
+    "verified": false
+  },
+  {
+    "id": "running-variant",
+    "url": "https://www.muscleandstrength.com/exercises/running.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Running",
+    "matchedWords": 0,
+    "expectedWords": 1,
+    "verified": false
+  },
+  {
+    "id": "cycling-variant",
+    "url": "https://www.muscleandstrength.com/exercises/stationary-cycling.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Stationary Cycling",
+    "matchedWords": 0,
+    "expectedWords": 2,
+    "verified": false
+  },
+  {
+    "id": "rowing-erg-variant",
+    "url": "https://www.muscleandstrength.com/exercises/rowing-machine.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Rowing Machine",
+    "matchedWords": 0,
+    "expectedWords": 2,
+    "verified": false
+  },
+  {
+    "id": "burpee-variant",
+    "url": "https://www.muscleandstrength.com/exercises/burpee.html",
+    "status": 404,
+    "title": "",
+    "expectedTitle": "Burpee",
+    "matchedWords": 0,
+    "expectedWords": 1,
+    "verified": false
+  }
+]
