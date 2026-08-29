@@ -88,10 +88,11 @@ jobs:
         run: ./gradlew bundleRelease --no-daemon --stacktrace
 
       # Expo şablonu release derlemesini varsayılan olarak debug anahtarıyla imzalar.
-      # Aşağıdaki adım yalnızca gerçek keystore secret'ları tanımlıysa çalışır ve
-      # imzayı kendi anahtarınla değiştirir.
+      # Bu adım her zaman çalışır; keystore secret'ı tanımlı değilse hiçbir şey yapmadan
+      # çıkar. ('secrets' bağlamı adım 'if' koşullarında kullanılamaz, bu yüzden kontrol
+      # koşulda değil script içinde yapılıyor.)
       - name: Release anahtarıyla imzala
-        if: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' && github.event.inputs.build_type != 'aab' }}
+        if: ${{ github.event.inputs.build_type != 'aab' }}
         env:
           KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
@@ -99,6 +100,13 @@ jobs:
           KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           set -euo pipefail
+
+          if [ -z "${KEYSTORE_BASE64:-}" ]; then
+            echo "ANDROID_KEYSTORE_BASE64 tanımlı değil — APK debug anahtarıyla imzalı kalıyor."
+            echo "Cihaza kurulabilir ama Play Store'a yüklenemez."
+            exit 0
+          fi
+
           echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.keystore"
 
           BUILD_TOOLS="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -n 1)"
